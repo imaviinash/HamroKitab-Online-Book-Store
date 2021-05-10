@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow: hidden scroll;
+    scroll-behavior: smooth;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555 !important;
+}
+
+h2,
+h4 {
+    color: #555 !important;
+}
+
+.form-inline,
+.form-control {
+    max-width: 12rem;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-inline:hover,
+.form-control:hover {
+    border-color: #ff523b !important;
+}
+
+.navbar-brand .logo {
+    padding-left: 6rem !important;
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    font-size: 400 !important;
+}
+
+.nav-item .active {
+    color: #ff523b !important;
+}
+
+.nav-item a:hover {
+    color: #ff523b !important;
+}
+
+.navbar-nav .menu-area {
+    position: static;
+}
+
+.navbar-nav .mega-area {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.navbar-nav .dropdown-item {
+    padding: 5px 0;
+}
+
+.bookBox {
+    border-radius: 0% !important;
+    cursor: pointer;
+    margin: 0 auto !important;
+    transition: transform 500ms ease-in-out 25ms;
+}
+
+.bookBox img {
+    align-items: center !important;
+    width: 200px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.bookBox:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-6px);
+}
+
+.rating {
+    color: #ff523b;
+}
+
+.sorting select {
+    border: 1px solid #ff523b;
+}
+
+.page-link {
+    border-color: #ff523b !important;
+    color: #000 !important;
+    margin: 1rem;
+}
+
+.page-link:hover {
+    background-color: #ff523b !important;
+    color: #fff !important;
+}
+
+
+/* ============ Product Details ============ */
+
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textdetail select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ff523b;
+}
+
+.textdetail input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+.textdetail input:focus {
+    outline: none;
+}
+
+.textdetail .btn {
+    background: #ff523b;
+    color: #fff !important;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5;
+}
+
+.textdetail .btn:hover {
+    background: #be493a;
+}
+
+.textdetail .fa {
+    color: #ff523b !important;
+    margin-left: 10px;
+}
+
+.view-more .title {
+    display: inline-block;
+}
+
+
+/* ============ END ============ */
+
+.footer {
+    bottom: 0 !important;
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 50px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a !important;
+}
+
+.footer ul {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 125px;
+}
+
+.footer hr {
+    margin-top: 2rem !important;
+    width: 95%;
+    align-items: center;
+    border: none;
+    background: #b5b5b5 !important;
+    height: 1px !important;
+}
+
+.text-copyright {
+    text-align: center;
+}
+
+.footer2 {
+    padding-left: 7rem !important;
+}
+
+.footer3 {
+    padding-left: 4rem !important;
+}
+
+.footer3 h3 {
+    padding-left: 1rem;
+}
+
+.app-logo .fcol1 {
+    padding-left: 0rem !important;
+}
+
+
+/* ============ desktop view ============ */
+
+@media all and (min-width: 992px) {}
+
+
+/* ============ mobile view ============ */
+
+@media(max-width: 653px) {
+    .navbar-brand .logo {
+        padding-left: 0rem !important;
+    }
+    .navbar .form-inline {
+        content-visibility: hidden;
+    }
+    .title {
+        font-size: x-large;
+        margin: 0 auto;
+    }
+    .sorting {
+        margin: 0 auto;
+    }
+    .bookBox {
+        width: 15rem;
+        margin: 0 auto !important;
+        justify-content: center;
+    }
+    .bookBox img {
+        align-items: center !important;
+        width: 200px;
+        height: 300px;
+    }
+    .product-detail-image img {
+        width: 200px;
+        height: 250px;
+    }
+    .textdetail {
+        margin-top: 2rem !important;
+    }
+    .view-more .title {
+        display: inline-block !important;
+    }
+    .pagination .page-item {
+        margin: 0 auto !important;
+    }
+    .footer2,
+    .footer3 {
+        align-items: center;
+        padding-left: 0rem !important;
+    }
+    .fcol {
+        display: block;
+    }
+}

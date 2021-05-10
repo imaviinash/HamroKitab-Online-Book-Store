@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HamroKitab</title>
+    <link rel="icon" href="images/2.png" type="images/x-icon">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--Font Awesome 5-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JS link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light mt-2">
+            <a class="navbar-brand" href="index.html">
+                <h1 class="logo" style="font-size: 25px;"><span style="color:#ff523b;">HAMRO</span>KITAB</h1>
+            </a>
+            <form class="form-inline my-2 my-lg-0">
+                <select class="form-control mr-sm-2" aria-label="Default select example">
+                            <option selected>All Categories</option>
+                            <option value="1">Fiction</option>
+                            <option value="2">Non-fiction</option>
+                            <option value="3">Biography</option>
+                            <option value="4">Poems</option>
+                            <option value="5">Drama</option>
+                            <option value="6">History</option>
+                            <option value="7">Romance</option>
+                            <option value="8">Essay</option>
+                            <option value="9">Health and wellness</option>
+                            <option value="10"> Self-help</option>
+                        </select>
+            </form>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">PRODUCT</a>
+                    </li>
+                    <li class="nav-item dropdown menu-area">
+                        <a class="nav-link dropdown-toggle" href="#" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          CATEGORIES
+                        </a>
+                        <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Web Design</h5>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Graphics Design</h5>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Bootstrap</h5>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Web Developer</h5>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                    <a href="#" class="dropdown-item">SubMenu</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">ACCOUNT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shopping cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section1">
+        <div class="container mt-3 mb-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" style="object-fit: cover;">
+                    <div class="carousel-item active ">
+                        <img src="images/Banner1.png " class="d-block w-100 " alt="Banner1 ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/Banner2.png " class="d-block w-100 " alt="Banner2 ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/Banner3.png " class="d-block w-100 " alt="Banner3 ">
+                    </div>
+                </div>
+                <a class="carousel-control-prev " href="#carouselExampleIndicators " role="button " data-slide="prev ">
+                    <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                    <span class="sr-only ">Previous</span>
+                </a>
+                <a class="carousel-control-next " href="#carouselExampleIndicators " role="button " data-slide="next ">
+                    <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                    <span class="sr-only ">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2 small-container ">
+        <div class="container text-center mt-5 mb-5 ">
+            <div class="row ">
+                <div class="col-md-3 ">
+                    <div class="card featureBox mb-4 ">
+                        <div class="card-body ">
+                            <img src="images/1.png " class=" feat-icon ">
+                            <h5>MONEY BACK GURANTEE</h5>
+                            <p>On E-Books</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-md-3 ">
+                    <div class="card featureBox mb-4 ">
+                        <div class="card-body ">
+                            <img src="images/2.png " class="feat-icon ">
+                            <h5>FREE DELIVERY</h5>
+                            <p>On orders above Rs. 1,200</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-md-3 ">
+                    <div class="card featureBox mb-4 ">
+                        <div class="card-body ">
+                            <img src="images/3.png " class="feat-icon ">
+                            <h5>ALWAY SUPPORT</h5>
+                            <p>24/7 Customer Support</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-md-3 ">
+                    <div class="card featureBox mb-4 ">
+                        <div class="card-body ">
+                            <img src="images/4.png " class="feat-icon ">
+                            <h5>SECURE PAYMENT</h5>
+                            <p>On Khalti</p>
+                        </div>
+                    </div>
+                </div><br>
+            </div>
+        </div><br>
+    </section>
+
+    <section class="section3 ">
+        <div class="container mt-5 mb-5 ">
+            <h2 class="title text-center ">New Release</h2>
+            <hr class="mb-5 ">
+            <div class="row text-center ">
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/MustRead/Book1.jpg " class="card-img-top " alt="Book1 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Muna Madan</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/MustRead/Book2.jpg " class="card-img-top " alt="Book2 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Teen Gumti</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/MustRead/Book3.jpg " class="card-img-top " alt="Book3 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Jhola</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/MustRead/Book4.jpg " class="card-img-top " alt="Book4 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Shirish ko Ful</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/MustRead/Book5.jpg " class="card-img-top " alt="Book5 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Palpasa Cafe</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4 ">
+        <div class="container mt-5 mb-5 ">
+            <h2 class="title text-center ">Best Sellers</h2>
+            <hr class="mb-5 ">
+            <div class="row text-center ">
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/Romance/Book1.jpg " class="card-img-top " alt="Book1 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Summer Love</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/Romance/Book2.jpg " class="card-img-top " alt="Book2 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Saya</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/Romance/Book3.jpg " class="card-img-top " alt="Book3 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Half Girlfriend</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/Romance/Book4.jpg " class="card-img-top " alt="Book4 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Revolution 2020</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/Romance/Book5.jpg " class="card-img-top " alt="Book5 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">The Notebook</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5 ">
+        <div class="container-fluid mt-5 mb-5 " style="background-color:lavenderblush; ">
+            <div class="row offersection ">
+                <div class="col-md-6 mx-auto imgoffer pt-4 ">
+                    <img src="images/exclusive.jpg " class="offer-img ">
+                </div>
+                <div class="col-md-6 mx-auto offertext pt-4 ">
+                    <br>
+                    <h4><b>Exclusively Available on HamroKitab</b></h4>
+                    <span class="exclusive-book-name ">Kafka on the Shore</span><br><br>
+                    <p class="exclusive-book-author-name ">by <b>Haruki Murakami</b></p>
+                    <small><br>
+                        Kafka on the Shore follows the fortunes of two remarkable characters.
+                        Kafka Tamura runs away from home at fifteen, under the shadow of his father's dark prophesy.
+                        The aging Nakata, tracker of lost cats, who never recovered from a bizarre childhood affliction, finds his pleasantly simplified life suddenly turned upside down.
+                        Their parallel odysseys are enriched throughout by vivid accomplices and mesmerising dramas.
+                        Cats converse with people; fish tumble from the sky; a ghostlike pimp deploys a Hegel-spouting girl of the night; a forest harbours soldiers apparently un-aged since WWII.
+                        There is a savage killing, but the identity of both victim and killer is a riddle.
+                        Murakami's novel is at once a classic quest, but it is also a bold exploration of mythic and contemporary taboos, of patricide, of mother-love, of sister-love.
+                        Above all it is an entertainment of a very high order.
+                        </small><br>
+                    <a href="# " class="btn ">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <section class="section6 ">
+        <div class="container mt-5 mb-5 ">
+            <h2 class="title text-center ">Award Winning</h2>
+            <hr class="mb-5 ">
+            <div class="row text-center ">
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/AwardWinning/Book1.jpg " class="card-img-top " alt="Book1 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Radha</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/AwardWinning/Book2.jpg " class="card-img-top " alt="Book2 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Damini Bhir</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/AwardWinning/Book3.jpg " class="card-img-top " alt="Book3 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Chayamareko</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/AwardWinning/Book4.jpg " class="card-img-top " alt="Book4 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Yogmaya</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/AwardWinning/Book5.png " class="card-img-top " alt="Book5 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Life of Pi</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section7 ">
+        <div class="container mt-5 mb-5 ">
+            <h2 class="title text-center ">For Children</h2>
+            <hr class="mb-5 ">
+            <div class="row text-center ">
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/ChildBook/Book14.jpg " class="card-img-top " alt="Book1 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Radha</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/ChildBook/Book13.jpg " class="card-img-top " alt="Book2 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Damini Bhir</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/ChildBook/Book12.jpg " class="card-img-top " alt="Book3 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Chayamareko</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox border-0 ">
+                        <img src="images/ChildBook/Book11.jpg " class="card-img-top " alt="Book4 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Yogmaya</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card bookBox mb-4 border-0 ">
+                        <img src="images/ChildBook/Book10.jpg " class="card-img-top " alt="Book5 ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Suga ra Kagh</h5>
+                            <div class="rating ">
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star " aria-hidden="true "></i>
+                                <i class="fa fa-star-half-o " aria-hidden="true "></i>
+                                <i class="fa fa-star-o " aria-hidden="true "></i>
+                            </div>
+                            <p>$50.00</p>
+                            <div class="action-links ">
+                                <a href="productdetails.html " class="product-btn "><i class="fa fa-eye " aria-hidden="true "></i></a>
+                                <a href="# " class="product-btn "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section8 ">
+        <div class="container mt-5 mb-5 ">
+            <h2 class="title text-center ">Blog</h2>
+            <hr class="mb-5 ">
+            <div class="row ">
+                <div class="col-md-4 mx-auto pb-2 ">
+                    <div class="card post-item ">
+                        <img src="images/post1.jpg ">
+                        <div class="post-content ">
+                            <a href="# " class="date ">07 July, 2019</a>
+                            <h3 class="post-title "><a href="# ">Were divided land his creature which have evening subdue</a></h3>
+                            <div class="meta-tags ">
+                                <a href="# " class="category "><i class="fa fa-tag " aria-hidden="true "></i> Women Fashion</a><a href="# " class="comments "><i class="fa fa-comment " aria-hidden="true "></i> 2 Comments</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-md-4 mx-auto pb-2 ">
+                    <div class="card post-item ">
+                        <img src="images/post2.jpg ">
+                        <div class="post-content ">
+                            <a href="# " class="date ">07 July, 2019</a>
+                            <h3 class="post-title "><a href="# ">Were divided land his creature which have evening subdue</a></h3>
+                            <div class="meta-tags ">
+                                <a href="# " class="category "><i class="fa fa-tag " aria-hidden="true "></i> Women Fashion</a><a href="# " class="comments "><i class="fa fa-comment " aria-hidden="true "></i> 2 Comments</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-md-4 mx-auto pb-2 ">
+                    <div class="card post-item ">
+                        <img src="images/post3.jpg ">
+                        <div class="post-content ">
+                            <a href="# " class="date ">07 July, 2019</a>
+                            <h3 class="post-title "><a href="# ">Were divided land his creature which have evening subdue</a></h3>
+                            <div class="meta-tags ">
+                                <a href="# " class="category "><i class="fa fa-tag " aria-hidden="true "></i> Women Fashion</a><a href="# " class="comments "><i class="fa fa-comment " aria-hidden="true "></i> 2 Comments</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+
+    <section class="section9 ">
+        <div class="container mt-5 mb-5 ">
+            <h2 class="title text-center ">What Our Customers Say</h2>
+            <hr class="mb-5 ">
+            <div class="testimonial ">
+                <div class="row text-center ">
+                    <div class="col mx-auto pb-2 ">
+                        <i class="fa fa-quote-left "></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="rating ">
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star-half-o "></i>
+                        </div>
+                        <img src="images/user-2.png ">
+                        <h3>Rabin Gautam</h3>
+                    </div>
+                    <div class="col mx-auto pb-2 ">
+                        <i class="fa fa-quote-left "></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="rating ">
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star-half-o "></i>
+                        </div>
+                        <img src="images/user-2.png ">
+                        <h3>Aayush Niroula</h3>
+                    </div>
+                    <div class="col mx-auto pb-2 ">
+                        <i class="fa fa-quote-left "></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="rating ">
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star "></i>
+                            <i class="fa fa-star-half-o "></i>
+                        </div>
+                        <img src="images/user-2.png ">
+                        <h3>Pratik Chaulagain</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+
+    <section class="section10 ">
+        <div class="container mt-5 mb-5 ">
+            <h2 class="title text-center ">Partners</h2>
+            <hr class="mb-5 ">
+            <div class="row text-center text ">
+                <div class="col pb-3 ">
+                    <img src="images/Lipibooks.png " width="120px " height="120px ">
+                </div>
+                <div class="col pb-3 ">
+                    <img src="images/Fineprint.png " width="120px " height="120px ">
+                </div>
+                <div class="col pb-3 ">
+                    <img src="images/Penguin logo.jpg " width="120px " height="120px ">
+                </div>
+                <div class="col pb-3 ">
+                    <img src="images/Ratna_Logo.jpg " width="120px " height="120px ">
+                </div>
+                <div class="col pb-3 ">
+                    <img src="images/Manjari_Publication_Logo.png " width="120px " height="120px ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer ">
+            <div class="container-fluid text-center mt-5 ">
+                <div class="row ">
+                    <div class="col-md-3 pb-5 ">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and iOS mobile phone.</p>
+                        <div class="app-logo ">
+                            <div class="row ">
+                                <div class="col-md-6 fcol ">
+                                    <img src="images/play-store.png ">
+                                </div>
+                                <div class="col-md-6 fcol ">
+                                    <img src="images/app-store.png ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pb-5 footer2 ">
+                        <a href="index.html ">
+                            <h1 style="font-size: 25px; "><span style="color:#ff523b; ">HAMRO</span><span style="color:#fff; ">KITAB</span></h1>
+                        </a>
+                        <p>Our Purpose Is To Sustainably Make The Pleasure and Benefits Of Books Accessible To The Many</p>
+                    </div>
+                    <div class="col-md-3 pb-5 footer3 ">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affilitate</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 pb-5 ">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <p class="text-copyright pt-4 ">Copyright &copy; 2021, All rights reserved
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
